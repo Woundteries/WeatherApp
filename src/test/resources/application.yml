@@ -1,0 +1,5 @@
+test:
+  environment: true
+
+api:
+  key: testApiKey
