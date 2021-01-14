@@ -39,7 +39,7 @@ class WeatherDataConverterTest {
     }
 
     @Test
-    void convert_nullInput_correctRealTemperature() {
+    void convert_nullInput_throwWeatherNotConvertableExceptionWithInvalidInput() {
 
         // given
         WeatherDataConverter converter = new WeatherDataConverter();
